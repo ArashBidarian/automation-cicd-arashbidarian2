@@ -2,7 +2,7 @@ pipeline {
     /* insert Declarative Pipeline here */
     agent any
         stages {
-        stage('Example Build') {
+        stage('Deploy/Build App') {
             steps {
                 sh '''
                     echo 'Application deployed successfully!
