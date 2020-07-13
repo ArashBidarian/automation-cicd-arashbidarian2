@@ -4,8 +4,9 @@ pipeline {
         stages {
         stage('Example Build') {
             steps {
-                sh 'pwd'
-                sh 'ls -lart'
+                sh '''
+                    echo 'Application deployed successfully!
+                '''
             }
         }
         stage('Frontend tests') {
