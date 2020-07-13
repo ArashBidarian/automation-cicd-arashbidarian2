@@ -1,5 +1,5 @@
 pipeline {
-    /* insert Declarative Pipeline here */
+    /* insert Declarative Pipeline here */ //
     agent any
         stages {
         stage('Deploy/Build App') {
